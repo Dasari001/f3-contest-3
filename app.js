@@ -17,6 +17,10 @@ logOutBtn.addEventListener('click',()=>{
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    username.value = "";
+    email.value = "";
+    password.value = "";
+    password2.value = "";
 })
 
 profileLink.addEventListener('click',()=>{
