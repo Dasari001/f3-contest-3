@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    border-bottom: 1px solid white;
+    gap: 75rem;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+
+#right{
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+#left{
+    font-size: 1.4rem;
+}
+
+#info{
+    /* border: 1px solid white; */
+    margin: 8rem 10rem 10rem 25rem;
+    padding: 2rem 2rem 2.5rem 5rem;
+}
+
+#logout-btn{
+    width: 6.5rem;
+    height: 2rem;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    border-bottom: 1px solid white;
+    gap: 75rem;
+    padding: 1rem 2rem 0.5rem 2rem;
+}
+
+#right{
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+#left{
+    font-size: 1.4rem;
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 40rem;
+    margin: 5rem 10rem 5rem 32rem;
+}
+
+input{
+    width: 25rem;
+    height: 1.4rem;
+}
+
+button{
+    width: 6.5rem;
+    height: 2rem;
+}
+
+#error-text{
+   color: red;
+}
+
+#success-text{
+   color: green;
+}
+
